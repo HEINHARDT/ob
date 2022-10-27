@@ -64,7 +64,7 @@ end
 ---------------------------------------
 if not trees then --Server Hopper
 	while trees == false do
-		wait(15) -- Decrease for fast hopping, recommended between 10-20
+		wait(1) -- Decrease for fast hopping, recommended between 1-5
 		print("Hopping, if hop fails just wait.")
 		local Player = game.Players.LocalPlayer
 		local Http = game:GetService("HttpService")
